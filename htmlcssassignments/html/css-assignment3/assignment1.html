@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page including form</title>
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+    <h1>Good Vibes Form</h1>
+   <div class="firstdivision">
+    <form>
+        <table class="itsform">
+            <caption class="heading">Tell us something positive that happened to you today</caption>
+            
+            <tr>
+               <td><label for="username">Name</label></td>
+               <td><input type:"text" id="username" placeholder="Enter your name"></td>
+            </tr><br>
+            <tr>
+                <td><label for="emailid">Email</label></td>
+                <td><input type="email" id="emailid" placeholder="Enter your email address"></td>
+            </tr><br>
+            <tr>
+                <td><label for="numerical">On a scale of 1-10, how good was it?</label></td>
+                <td><input type="number" id="numerical" placeholder="Enter a number between 1 and 10"></td>
+            </tr><br>
+            <tr>
+                <td><label for="place">Where did it happen</label></td>
+                <td>
+                    <select id="place">
+                        <option>---select---</option>
+                        <option>At home</option>
+                    </select>
+                </td>
+            </tr><br>
+            <tr>
+                <td><label for="time">At time of ady did it happen?</label></td>
+                <td>
+                    <input type="radio" id="time">Morning<br>
+                    <input type="radio" id="time">Afternoon<br>
+                    <input type="radio" id="time">Evening<br> 
+                </td>
+            </tr><br>
+            <tr>
+                <td><label for="emotions">What emotions did you expirience? (select all that apply)</label></td>
+                <td>
+                    <input type="checkbox" id="emotions">Exited<br>
+                    <input type="checkbox" id="emotions">Humbled<br>
+                    <input type="checkbox" id="emotions">Elated<br>
+                    <input type="checkbox" id="emotions">Loved<br>
+                    <input type="checkbox" id="emotions">Enthusiatic<br>
+
+                </td>
+            </tr><br>
+            <tr>
+                <td><label for="description">Please describe your expirience</label></td>
+                <td><textarea id="description" placeholder="enter your expirience here"></textarea></td>
+            </tr><br>
+            
+        </table>
+        <button class="request-button">submit</button>
+    </form>
+</div>  
+</body>
+</html>

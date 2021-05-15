@@ -1,0 +1,51 @@
+.firstimage{
+    background-image: url(/images/TowerBridgeLondon.jpg);
+    min-height:100%;
+}
+.secondimage{
+    background-image: url(/images/ocean.jpg);
+    min-height: 50%;
+}
+.thirdimage {
+    background-image: url(/images/United-Kingdom.jpg);
+    min-height: 50%;
+}
+.firstimage, .secondimage, .thirdimage {
+    position:relative;
+    opacity: 0.70;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat : repeat-x no-repeat;
+    background-repeat: repeat-y no-repeat;
+    background-attachment: fixed;
+}
+div {
+    display: block;
+}
+body, html {
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size:16px ;
+    font-family:Arial;
+    font: weight 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+.imagetext {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: black;
+    
+}
+h2 {
+    text-align: center;
+}

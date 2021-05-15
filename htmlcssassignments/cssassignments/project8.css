@@ -1,0 +1,15 @@
+.paragraph1 {
+    border-style:solid;
+    background-color:skyblue;
+}
+.paragraph2 {
+    border-style:solid;
+    background-color: skyblue;
+}
+.paragraph3 {
+    border-style:ridge;
+    background-color: skyblue;
+}
+.paragraph4 {
+    background-color: skyblue;
+}

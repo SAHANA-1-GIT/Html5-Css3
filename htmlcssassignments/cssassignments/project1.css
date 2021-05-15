@@ -1,0 +1,12 @@
+h3 {
+  background-color: blue;
+}
+div{
+   background-color:darkorchid;
+}
+div .paragraph2{
+    background-color: cyan;
+}
+div .paragraph3{
+    text-align:initial;
+}
